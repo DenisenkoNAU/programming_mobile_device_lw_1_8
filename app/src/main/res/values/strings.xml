@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LabWorkApp</string>
+    <string name="hello_blank_fragment">Blank Fragment</string>
+    <string name="image_description">Image</string>
+    <string name="student_name">Denisenko I.O</string>
+    <string name="student_group">гр.Б-121-22-1-ПІ</string>
+
+    <string name="menu_lab_1">Laboratory Work №1</string>
+    <string name="menu_lab_2">Laboratory Work №2</string>
+</resources>

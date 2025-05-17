@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.LabWorkApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorOnPrimary">@color/primary</item>
+        <item name="android:statusBarColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="Theme.LabWorkApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MyApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MyApplication.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="typography_h1">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/tex_primary</item>
+    </style>
+</resources>
