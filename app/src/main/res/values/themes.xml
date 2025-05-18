@@ -18,6 +18,11 @@
         <item name="android:textColor">@color/tex_primary</item>
     </style>
 
+    <style name="typography_h6">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/tex_primary</item>
+    </style>
+
     <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
         <item name="android:background">@drawable/custom_button</item>
         <item name="android:textColor">@color/white</item>
