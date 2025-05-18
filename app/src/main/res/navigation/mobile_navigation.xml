@@ -41,11 +41,11 @@
         android:label="@string/menu_lab_6"
         tools:layout="@layout/fragment_lab6" />
 
-<!--    <fragment-->
-<!--        android:id="@+id/nav_lab7"-->
-<!--        android:name="com.nau.pmd.lwapp.ui.lab7.Lab7Fragment"-->
-<!--        android:label="@string/menu_lab_7"-->
-<!--        tools:layout="@layout/fragment_lab7" />-->
+    <fragment
+        android:id="@+id/nav_lab7"
+        android:name="com.nau.pmd.lwapp.ui.lab7.Lab7Fragment"
+        android:label="@string/menu_lab_7"
+        tools:layout="@layout/fragment_lab7" />
 
 <!--    <fragment-->
 <!--        android:id="@+id/nav_lab8"-->

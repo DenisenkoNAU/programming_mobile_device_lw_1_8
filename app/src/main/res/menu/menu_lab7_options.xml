@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_add"
+        android:title="Додати"
+        android:icon="@android:drawable/ic_menu_add"/>
+    <item
+        android:id="@+id/menu_edit"
+        android:title="Редагувати"
+        android:icon="@android:drawable/ic_menu_edit"/>
+    <item
+        android:id="@+id/menu_delete"
+        android:title="Видалити"
+        android:icon="@android:drawable/ic_menu_delete" />
+    <item
+        android:id="@+id/menu_share"
+        android:title="Поділитись"
+        android:icon="@android:drawable/ic_menu_share" />
+    <item
+        android:id="@+id/menu_popup_trigger"
+        android:title="Показати Popup"
+        android:icon="@android:drawable/ic_menu_more" />
+</menu>
