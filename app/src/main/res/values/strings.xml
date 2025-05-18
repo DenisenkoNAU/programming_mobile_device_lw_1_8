@@ -8,4 +8,10 @@
 
     <string name="menu_lab_1">Laboratory Work №1</string>
     <string name="menu_lab_2">Laboratory Work №2</string>
+    <string name="menu_lab_3">Laboratory Work №3</string>
+    <string name="menu_lab_4">Laboratory Work №4</string>
+    <string name="menu_lab_5">Laboratory Work №5</string>
+    <string name="menu_lab_6">Laboratory Work №6</string>
+    <string name="menu_lab_7">Laboratory Work №7</string>
+    <string name="menu_lab_8">Laboratory Work №8</string>
 </resources>

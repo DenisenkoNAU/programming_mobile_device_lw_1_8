@@ -10,4 +10,46 @@
         android:name="com.nau.pmd.lwapp.ui.lab1.Lab1Fragment"
         android:label="@string/menu_lab_1"
         tools:layout="@layout/fragment_lab1" />
+
+    <fragment
+        android:id="@+id/nav_lab2"
+        android:name="com.nau.pmd.lwapp.ui.lab2.Lab2Fragment"
+        android:label="@string/menu_lab_2"
+        tools:layout="@layout/fragment_lab2" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_lab3"-->
+<!--        android:name="com.nau.pmd.lwapp.ui.lab3.Lab3Fragment"-->
+<!--        android:label="@string/menu_lab_3"-->
+<!--        tools:layout="@layout/fragment_lab3" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_lab4"-->
+<!--        android:name="com.nau.pmd.lwapp.ui.lab4.Lab4Fragment"-->
+<!--        android:label="@string/menu_lab_4"-->
+<!--        tools:layout="@layout/fragment_lab4" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_lab5"-->
+<!--        android:name="com.nau.pmd.lwapp.ui.lab5.Lab5Fragment"-->
+<!--        android:label="@string/menu_lab_5"-->
+<!--        tools:layout="@layout/fragment_lab5" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_lab6"-->
+<!--        android:name="com.nau.pmd.lwapp.ui.lab6.Lab6Fragment"-->
+<!--        android:label="@string/menu_lab_6"-->
+<!--        tools:layout="@layout/fragment_lab6" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_lab7"-->
+<!--        android:name="com.nau.pmd.lwapp.ui.lab7.Lab7Fragment"-->
+<!--        android:label="@string/menu_lab_7"-->
+<!--        tools:layout="@layout/fragment_lab7" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_lab8"-->
+<!--        android:name="com.nau.pmd.lwapp.ui.lab8.Lab8Fragment"-->
+<!--        android:label="@string/menu_lab_8"-->
+<!--        tools:layout="@layout/fragment_lab8" />-->
 </navigation>

@@ -11,5 +11,29 @@
         <item
             android:id="@+id/nav_lab2"
             android:title="@string/menu_lab_2" />
+
+        <item
+            android:id="@+id/nav_lab3"
+            android:title="@string/menu_lab_3" />
+
+        <item
+            android:id="@+id/nav_lab4"
+            android:title="@string/menu_lab_4" />
+
+        <item
+            android:id="@+id/nav_lab5"
+            android:title="@string/menu_lab_5" />
+
+        <item
+            android:id="@+id/nav_lab6"
+            android:title="@string/menu_lab_6" />
+
+        <item
+            android:id="@+id/nav_lab7"
+            android:title="@string/menu_lab_7" />
+
+        <item
+            android:id="@+id/nav_lab8"
+            android:title="@string/menu_lab_8" />
     </group>
 </menu>

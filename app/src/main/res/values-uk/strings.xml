@@ -9,4 +9,10 @@
 
     <string name="menu_lab_1">Лабораторна робота №1</string>
     <string name="menu_lab_2">Лабораторна робота №2</string>
+    <string name="menu_lab_3">Лабораторна робота №3</string>
+    <string name="menu_lab_4">Лабораторна робота №4</string>
+    <string name="menu_lab_5">Лабораторна робота №5</string>
+    <string name="menu_lab_6">Лабораторна робота №6</string>
+    <string name="menu_lab_7">Лабораторна робота №7</string>
+    <string name="menu_lab_8">Лабораторна робота №8</string>
 </resources>
