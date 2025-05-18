@@ -23,6 +23,7 @@ class Lab6Fragment : Fragment() {
         _binding = FragmentLab6Binding.inflate(inflater, container, false)
 
         setupListView()
+
         setupFunctionGrid()
 
         return binding.root
@@ -55,7 +56,7 @@ class Lab6Fragment : Fragment() {
             var x = xStart
             while (x <= xEnd + 0.0001) {
                 xValues.add(x)
-                yValues.add(sin(x)) // наприклад, функція y = sin(x)
+                yValues.add(sin(x))
                 x += step
             }
 

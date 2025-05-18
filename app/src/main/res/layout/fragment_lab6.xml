@@ -1,71 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.lab6.Lab6Fragment">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:padding="16dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <!-- ЧАСТИНА 1: ListView -->
         <TextView
             android:id="@+id/selectedItemText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Виберіть елемент зі списку"
-            android:textSize="16sp"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="16dp"
+            android:paddingHorizontal="16dp"
+            style="@style/typography_h6" />
 
         <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:divider="#2196F3"
-            android:dividerHeight="2dp"
-            android:layout_marginBottom="32dp" />
+            android:divider="@color/primary_light"
+            android:dividerHeight="1dp"/>
 
-        <!-- ЧАСТИНА 2: Ввід меж -->
-        <EditText
-            android:id="@+id/etStart"
-            android:hint="Початок X"
-            android:inputType="numberDecimal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <EditText
-            android:id="@+id/etEnd"
-            android:hint="Кінець X"
-            android:inputType="numberDecimal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <EditText
-            android:id="@+id/etStep"
-            android:hint="Крок"
-            android:inputType="numberDecimal"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp" />
+            android:orientation="vertical"
+            android:layout_marginTop="32dp"
+            android:paddingHorizontal="16dp">
 
-        <Button
-            android:id="@+id/btnCalculate"
-            android:text="Обчислити"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/etStart"
+                android:hint="Початок X"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
-        <Button
-            android:id="@+id/btnExit"
-            android:text="Вихід"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="16dp" />
+            <EditText
+                android:id="@+id/etEnd"
+                android:hint="Кінець X"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
-        <!-- Вивід результату -->
+            <EditText
+                android:id="@+id/etStep"
+                android:hint="Крок"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnCalculate"
+                    android:text="Обчислити"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    style="@style/CustomButtonStyle"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnExit"
+                    android:text="Вихід"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    style="@style/CustomButtonStyle" />
+            </LinearLayout>
+        </LinearLayout>
+
         <GridView
             android:id="@+id/gridView"
             android:numColumns="2"
@@ -73,6 +84,5 @@
             android:horizontalSpacing="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-    </LinearLayout>
 
-</ScrollView>
+</LinearLayout>

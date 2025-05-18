@@ -87,44 +87,80 @@
             android:columnCount="3"
             android:rowCount="4"
             android:alignmentMode="alignMargins"
-            android:useDefaultMargins="true">
+            android:useDefaultMargins="false">
 
             <androidx.appcompat.widget.AppCompatButton
                 android:text="A1"
-                style="@style/CustomButtonStyle" />
+                style="@style/CustomButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:text="A2"
-                style="@style/CustomButtonStyle" />
+                style="@style/CustomButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:text="A3"
-                style="@style/CustomButtonStyle" />
+                style="@style/CustomButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:text="B1"
-                style="@style/CustomButtonStyle" />
+                style="@style/CustomButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:text="B2"
-                style="@style/CustomButtonStyle" />
+                style="@style/CustomButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:text="B3"
-                style="@style/CustomButtonStyle" />
+                style="@style/CustomButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:text="C1"
-                style="@style/CustomButtonStyle" />
+                style="@style/CustomButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:text="C2"
-                style="@style/CustomButtonStyle" />
+                style="@style/CustomButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:text="C3"
-                style="@style/CustomButtonStyle" />
+                style="@style/CustomButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:text="D1"
-                style="@style/CustomButtonStyle" />
+                style="@style/CustomButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:text="D2"
-                style="@style/CustomButtonStyle" />
+                style="@style/CustomButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:text="D3"
-                style="@style/CustomButtonStyle" />
+                style="@style/CustomButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
         </GridLayout>
 
     </LinearLayout>
